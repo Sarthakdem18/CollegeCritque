@@ -1,0 +1,98 @@
+/* General styles for the body and layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('sky.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+header {
+    color: white;
+    padding: 10px 0;
+
+}
+
+.logo {
+    display: flex;
+        justify-content: flex-start; 
+        max-width: 1200px; 
+        margin: 0 auto;
+        padding: 0 20px;
+}
+.logo img {
+    width: 200px;
+}
+
+main {
+    padding: 20px;
+}
+
+.registration-section {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form label {
+    margin-bottom: 5px;
+}
+
+.registration-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.password-requirements {
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.register-btn {
+    background-color: #ff8a15;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.register-btn:hover {
+    background-color: #ec8005;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #5700b34f;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('sky.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    
+}
+
+header {
+    background-color: #e69b6d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo-image {
+        width: 800px;
+        height: 200px;
+        border-radius: 15px; /* Rounded rectangle shape */
+        object-fit: cover;
+    }    
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.auth-buttons {
+    display: flex; /* Align buttons in a row */
+    justify-content: flex-end; /* Push buttons to the right */
+}
+
+.auth-buttons button {
+    margin-left: 10px; /* Space between buttons */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #71099b; /* Darker blue for buttons */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.auth-buttons button:hover {
+    background-color: #004494; /* Darker shade on hover */
+}
+.hero {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('sky.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+}
+.nav-container nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container nav ul li {
+    margin: 0 10px;
+}
+
+.nav-container nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* Default link color */
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition for color and underline effect */
+}
+
+.nav-container nav ul li a:hover {
+    color: #bc2ddc; /* Change text color on hover */
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-weight: 750;
+    color:#7707a3
+}
+.hero p {
+    font-weight: bold;
+}
+.hero button {
+    padding: 10px 20px;
+    background-color: #a50ab0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.college-list {
+    padding: 20px;
+}
+
+.college-item {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #7707a3;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.college-item h3{
+    color:#71099b
+}
+.college-item p{
+    font-weight: 400;
+}
+.college-list h2{
+    color: #ff3d02;
+}
+.college-item a{
+    text-decoration: none;
+}
+.hero {
+    background: rgba(255, 255, 255, 0.685);
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #8f0cb7;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.features li {
+    font-size: 16px;
+    color: #ffffff;
+    background: #a312a3;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* Highlights */
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.highlights p {
+    font-size: 16px;
+    color: #640a95;
+    font-weight: bold;
+}
+
+/* Testimonial */
+.testimonial {
+    font-size: 16px;
+    font-style: italic;
+    color: #000000;
+    border-left: 4px solid #61068b;
+    padding-left: 15px;
+    margin: 20px auto 30px;
+    max-width: 600px;
+    font-weight: 500;
+}
+
